@@ -9,6 +9,9 @@ convert.addEventListener('click', () => {
   let result = "";
 
   let numMap = [
+    { limit: 10000, value: "MX" },
+    { limit: 5000, value: "V" },
+    { limit: 4000, value: "MV" },
     { limit: 1000, value: "M" },
     { limit: 900, value: "CM" },
     { limit: 500, value: "D" },
